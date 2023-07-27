@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #149ddd;
+  color: #fff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #d8c094;
   text-decoration: none;
 }
 
@@ -203,7 +203,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #000;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -303,7 +303,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #f9f9f9;
 }
 
 .section-title {
@@ -361,7 +361,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #000;
   line-height: 0;
 }
 
@@ -384,7 +384,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #000;
   float: left;
   line-height: 0;
 }
@@ -454,7 +454,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: #000;
 }
 
 /*--------------------------------------------------------------
@@ -621,7 +621,7 @@ section {
   color: #1a1a1a;
   font-size: 22px;
   text-align: center;
-  background: #c3ff0077;
+  background: #ffffff77;
   transition: 0.3s;
   width: 100%;
 }
@@ -673,11 +673,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #000;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #000;
 }
 
 .portfolio-details .portfolio-info {
@@ -754,7 +754,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #149ddd;
+  color: #000;
 }
 
 .services .description {
@@ -848,11 +848,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #000;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #000;
 }
 
 /*--------------------------------------------------------------
@@ -860,7 +860,7 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
-  background-color: #f5f8fd;
+  background-color: #f9f9f9;
 }
 
 .contact .info {
@@ -923,7 +923,7 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #000;
   color: #fff;
 }
 
@@ -932,6 +932,17 @@ section {
   padding: 30px;
   background: #fff;
   border-radius: 10px;
+}
+
+.form-control {
+  border: 1px solid #ccc; /* Color de borde predeterminado */
+}
+
+/* Estilo cuando está en foco */
+.form-control:focus {
+  border-color: #d8c094; /* Cambiar el color del borde cuando está en foco */
+  outline: none; /* Opcional: para eliminar el resaltado predeterminado */
+  /* Otros estilos adicionales si lo deseas */
 }
 
 .contact .php-email-form .form-group {
