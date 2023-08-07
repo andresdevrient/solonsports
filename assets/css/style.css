@@ -15,7 +15,6 @@ body {
 }
 
 a {
-  color: #fff;
   text-decoration: none;
 }
 
@@ -1114,6 +1113,10 @@ section {
   background: #040b14;
 }
 
+#footer .breadcrumb {
+  justify-content: center;
+}
+
 #footer .copyright {
   text-align: center;
 }
@@ -1132,3 +1135,4 @@ section {
     padding-right: 20px 15px;
   }
 }
+
