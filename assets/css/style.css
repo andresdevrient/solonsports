@@ -245,7 +245,7 @@ h6 {
 }
 
 #hero .hero-container {
-  margin-left: 60px;
+  margin-left: 32px;
   position: relative;
   z-index: 2;
   min-width: 300px;
@@ -261,7 +261,7 @@ h6 {
 #hero p {
   color: #fff;
   margin-top: 10px;
-  font-size: 26px;
+  font-size: 22px;
   font-family: "Poppins", sans-serif;
   margin-left: 8px;
 }
